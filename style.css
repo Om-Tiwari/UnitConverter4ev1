@@ -1,0 +1,80 @@
+body {
+  background-color: black;
+  position: absolute;
+  left: 20px;
+  right: 20px;
+  top: 20px;
+}
+
+#box {
+  padding-left: 300px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-right: 300px;
+}
+
+#input-win {
+  border-radius: 16px 16px 0px 0px;
+  padding: 10px;
+  background-image: linear-gradient(
+    45deg,
+    hsl(340deg 100% 70%) 0%,
+    hsl(338deg 100% 68%) 18%,
+    hsl(336deg 100% 67%) 26%,
+    hsl(334deg 100% 65%) 33%,
+    hsl(332deg 100% 63%) 39%,
+    hsl(330deg 100% 60%) 44%,
+    hsl(328deg 100% 57%) 50%,
+    hsl(322deg 100% 53%) 56%,
+    hsl(317deg 100% 50%) 61%,
+    hsl(313deg 100% 50%) 67%,
+    hsl(309deg 100% 50%) 74%,
+    hsl(305deg 100% 50%) 82%,
+    hsl(299deg 100% 50%) 100%
+  );
+  position: absolute;
+  width: 550px;
+  height: 180px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#input {
+  position: absolute;
+  width: 100px;
+  left: 240px;
+  top: 90px;
+  line-height: 150%;
+  font-size: 100px;
+  font-size: 40px;
+  border: 0px;
+  border-radius: 16px;
+}
+
+#output-win {
+  position: absolute;
+  top: 300px;
+  height: fit-content;
+  width: 520px;
+  border-radius: 0px 0px 16px 16px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  padding: 25px;
+  color: white;
+  text-align: center;
+  background: #1f2937;
+}
+
+#length,
+#volume,
+#mass {
+  font-weight: 400;
+  color: #d2d2d2;
+}
